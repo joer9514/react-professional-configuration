@@ -59,7 +59,7 @@
     "*.{ts,tsx}": [
       "npm run lint",
       "npm run format",
-      "npm run jest"
+      "npm run test"
     ],
     "*.{scss,md}": [
       "npm run format"
