@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* Basic configuration of the project */
+
+$font-family: 'Source Code Pro';
+
+$font-weight: (
+  'regular': 400,
+  'semiBold': 600,
+  'extraBold': 800,
+);
+
+$font-url: (
+  'regular': './assets/fonts/SourceCodePro-Regular.ttf',
+  'semiBold': './assets/fonts/SourceCodePro-SemiBold.ttf',
+  'extraBold': './assets/fonts/SourceCodePro-ExtraBold.ttf',
+);
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-size: calc(14px + (28 - 14) * ((100vw - 320px) / (3840 - 320)));
+  /* Fluid Design 👆🏽: https://bit.ly/fluid-design */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: $font-family, monospace;
+}
+
+@each $weight, $url in $font-url {
+  @font-face {
+    font-weight: map-get($font-weight, $weight);
+    font-family: $font-family;
+    src: local($font-family), url($url);
+  }
+}
