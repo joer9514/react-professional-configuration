@@ -6,10 +6,16 @@ Welcome to the most professional React configuration template you can find!
 
 This project is set up so that you only focus on the coding as I have done all the dirty work for you. You can play with the settings if you wish, but I recommend that you don't as it has very advanced and perfectly calculated settings.
 
-## How to use
+## How to use this template
+
+at the top right, right where the clone button is, there is a new button so you can use this template completely from ZERO in your new project.
+
+## How to install
+
 ```bash
 pnpm i
 ```
+
 ```bash
 pnpm dev
 ```
