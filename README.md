@@ -6,6 +6,14 @@ Welcome to the most professional React configuration template you can find!
 
 This project is set up so that you only focus on the coding as I have done all the dirty work for you. You can play with the settings if you wish, but I recommend that you don't as it has very advanced and perfectly calculated settings.
 
+## How to use
+```bash
+pnpm i
+```
+```bash
+pnpm dev
+```
+
 ## :bulb:Configurations:
 
 - :high_brightness:React
