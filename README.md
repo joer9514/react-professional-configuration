@@ -30,6 +30,7 @@ pnpm dev
 - :high_brightness:TypeScript
   - :sparkler:Aliases (prefix "@" on imports)
 - :high_brightness:Sass
+  - :sparkler:[Fluid Design](https://bit.ly/fluid-design)
 - :high_brightness:Vite
   - :sparkler:Load aliases
   - :sparkler:Load environment variables
