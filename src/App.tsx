@@ -15,7 +15,7 @@ function App() {
         <a
           href='https://linkedin.com/in/joseespinosaramirez'
           target='_blank'
-          rel='noreferrer'
+          rel='noopenner noreferrer'
         >
           Linkedin
         </a>
