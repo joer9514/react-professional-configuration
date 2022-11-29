@@ -24,10 +24,12 @@ html {
   /* Fluid Design 👆🏽: https://bit.ly/fluid-design */
 }
 
-*,
-*::before,
-*::after {
+.reset *,
+.reset *::before,
+.reset *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
