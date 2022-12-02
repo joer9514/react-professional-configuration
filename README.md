@@ -1,4 +1,4 @@
-# react-professional-configuration
+# React-professional-configuration
 
 ![sc](./public/sc.png)
 
@@ -10,7 +10,7 @@ This project is set up so that you only focus on the coding as I have done all t
 
 ## How to use this template
 
-at the top right, right where the clone button is, there is a new button so you can use this template completely from ZERO in your new project.
+At the top right, right where the clone button is, there is a new button so you can use this template completely from ZERO in your new project.
 
 ## How to install
 
