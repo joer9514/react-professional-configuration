@@ -1,5 +1,7 @@
 # react-professional-configuration
 
+![sc](./public/sc.png)
+
 ### `FREE`
 
 Welcome to the most professional React configuration template you can find!
