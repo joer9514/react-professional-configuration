@@ -17,7 +17,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": ["vite/client", "node", "jest"]
+    "types": ["vite/client", "node", "jest", "@testing-library/jest-dom"]
   },
   "include": ["src", "vite.config.ts", "jest.config.ts", "jest.setup.ts"],
   "exclude": ["node_modules", "dist"],

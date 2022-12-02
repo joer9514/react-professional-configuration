@@ -1,5 +1,4 @@
-import { useRef } from 'react';
-import { useEffect } from 'react';
+import { useRef, useEffect } from 'react';
 
 export default function App() {
   const [ref, _ref] = useGrane();
@@ -43,7 +42,7 @@ const useGrane = () => {
 
   useEffect(() => {
     setTimeout(function () {
-      if (ref.current && _ref.current !== null) {
+      if (ref.current != null && _ref.current !== null) {
         ref.current.style.opacity = '1';
         ref.current.style.filter = 'blur(0px)';
         _ref.current.style.opacity = '1';
