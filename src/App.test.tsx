@@ -1,16 +1,14 @@
 import App from '@/App';
-import { render /* screen */ } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 
 describe('App component', () => {
   describe('The App component should be displayed on the screen', () => {
     test('App renderer', () => {
-      // const title = screen.getByText(/PROFESSIONAL CONFIGURATION REACT!/i);
-
       render(<App />);
 
-      // expect(title).toBeInTheDocument();
+      const title = screen.getByText(/PROFESSIONAL CONFIGURATION REACT!/i);
 
-      expect(4 + 4).toEqual(8);
+      expect(title).toBeInTheDocument();
     });
   });
 });
