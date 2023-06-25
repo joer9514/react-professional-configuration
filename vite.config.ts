@@ -3,8 +3,8 @@ import { resolve } from 'path';
 import { defineConfig, loadEnv } from 'vite';
 
 // https://vitejs.dev/config/
-export default ({ mode }: { mode: string }) => {
-  return defineConfig({
+export default async ({ mode }: { mode: string }) => {
+  return await defineConfig({
     plugins: [react()],
     resolve: {
       alias: [{ find: '@', replacement: resolve(__dirname, './src') }],
