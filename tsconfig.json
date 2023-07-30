@@ -4,7 +4,7 @@
     "baseUrl": ".",
     "paths": { "@/*": ["./src/*"] },
     "useDefineForClassFields": true,
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "lib": ["DOM", "DOM.Iterable", "ES6"],
     "allowJs": false,
     "skipLibCheck": true,
     "esModuleInterop": false,

@@ -1,4 +1,4 @@
 node_modules
 dist
-pnpm-lock.yaml
+*lock*
 index.html
