@@ -19,13 +19,12 @@
     "jsx": "react-jsx",
     "types": ["vite/client", "node", "jest"]
   },
-  "include": ["src"],
+  "include": ["src", "jest.setup.ts"],
   "exclude": [
     "node_modules",
     "dist",
-    "vite.config.ts",
     "jest.config.ts",
-    "jest.setup.ts",
+    "vite.config.ts",
     ".eslintrc.cjs",
     ".prettierrc.cjs"
   ],
