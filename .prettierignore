@@ -2,6 +2,3 @@ node_modules
 dist
 *lock*
 index.html
-jest.config.ts
-jest.setup.ts
-.eslintrc.cjs
