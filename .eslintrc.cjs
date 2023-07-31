@@ -33,9 +33,10 @@ module.exports = {
   ignorePatterns: [
     'node_modules',
     'dist',
+    'vite.config.ts',
     'jest.config.ts',
     'jest.setup.ts',
     '.eslintrc.cjs',
-    ".prettierrc.cjs"
+    '.prettierrc.cjs',
   ],
 };
