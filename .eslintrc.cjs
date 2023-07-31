@@ -30,4 +30,12 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/triple-slash-reference': 'off',
   },
+  ignorePatterns: [
+    'node_modules',
+    'dist',
+    'jest.config.ts',
+    'jest.setup.ts',
+    '.eslintrc.cjs',
+    ".prettierrc.cjs"
+  ],
 };
