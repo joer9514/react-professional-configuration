@@ -1,8 +1,6 @@
 # React-professional-configuration
 
-![sc](./public/sc.png)
-
-### `FREE`
+### FREE
 
 Welcome to the most professional React configuration template you can find!
 
@@ -15,45 +13,46 @@ At the top right, right where the clone button is, there is a new button so you 
 ## How to install
 
 ```bash
-pnpm i
+npm i
 ```
 
 ```bash
-pnpm dev
+npm run dev
+```
+
+## How to test
+
+```bash
+npm run test
+```
+
+```bash
+npm run test:watch
 ```
 
 ## :bulb:Configurations:
 
-- :high_brightness:React
-  - :sparkler:Jest
-  - :sparkler:Testing Library
-  - :sparkler:Babel
-  - :sparkler:pnpm package management
-- :high_brightness:TypeScript
-  - :sparkler:Aliases (prefix "@" on imports)
-- :high_brightness:Sass
-  - :sparkler:[Fluid Design](https://bit.ly/fluid-design)
-- :high_brightness:Vite
-  - :sparkler:Load aliases
-  - :sparkler:Load environment variables
-  - :sparkler:Load environment modes (development, staging and production)
-- :high_brightness:Husky
-  - :sparkler:eslint
-  - :sparkler:prettier
-  - :sparkler:jest
-- :high_brightness:Eslint
-  - :sparkler:Standard Js
-  - :sparkler:React
-  - :sparkler:TypeScript
-  - :sparkler:Jest
-- :high_brightness:Prettier
+- React
+- react-swc
+- TypeScript
+- Vite
+- Tailwindcss
+- Postcss
+- Jest
+- Testing Library
+- Babel (for jest)
+- Husky
+- Eslint
+  - standard js
+- Prettier
+- Clsx
 
 ## License
 
 ```txt
 MIT License
 
-Copyright (c) 2022 Jose Espinosa
+Copyright (c) 2023 Jose Espinosa
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

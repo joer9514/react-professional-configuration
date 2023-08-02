@@ -39,5 +39,7 @@ module.exports = {
     'jest.setup.ts',
     '.eslintrc.cjs',
     '.prettierrc.cjs',
+    'tailwind.config.cjs',
+    'postcss.config.cjs',
   ],
 };
