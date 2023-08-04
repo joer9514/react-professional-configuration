@@ -9,12 +9,12 @@ export default function App() {
 
   return (
     <>
-      <div className='h-screen bg-gray-900 text-white flex flex-col justify-center items-center gap-y-12'>
-        <h1 className='text-2xl font-bold animate-pulse'>
+      <div className='flex h-screen flex-col items-center justify-center gap-y-12 bg-gray-900 text-white'>
+        <h1 className='animate-pulse text-2xl font-bold'>
           REACT PROFESSIONAL CONFIGURATION!
         </h1>
         <button
-          className='px-4 py-2 rounded-[8px] bg-black hover:bg-sky-950 active:border'
+          className='rounded-[8px] bg-black px-4 py-2 hover:bg-sky-950 active:border'
           type='button'
           onClick={onCounter}
         >
