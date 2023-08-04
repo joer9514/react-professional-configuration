@@ -26,7 +26,6 @@
     "jest.config.ts",
     "vite.config.ts",
     ".eslintrc.cjs",
-    ".prettierrc.cjs",
     "tailwind.config.cjs",
     "postcss.config.cjs"
   ],
