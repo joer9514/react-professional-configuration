@@ -75,4 +75,4 @@ SOFTWARE.
 
 ## Author
 
-[Jose Espinosa -> joer9514](https://github.com/joer9514)
+[Jose Espinosa](https://github.com/joer9514)
