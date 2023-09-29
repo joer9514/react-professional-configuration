@@ -25,9 +25,9 @@
     "dist",
     "jest.config.ts",
     "vite.config.ts",
-    ".eslintrc.cjs",
-    "tailwind.config.cjs",
-    "postcss.config.cjs"
+    ".eslintrc",
+    "tailwind.config.js",
+    "postcss.config.js"
   ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
