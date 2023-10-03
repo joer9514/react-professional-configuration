@@ -30,7 +30,10 @@
   "rules": {
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/triple-slash-reference": "off",
-    "@typescript-eslint/strict-boolean-expressions": "off"
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/no-floating-promises": "off",
+    "@typescript-eslint/no-confusing-void-expression": "off",
+    "react-hooks/exhaustive-deps": "off"
   },
   "ignorePatterns": [
     "node_modules",
